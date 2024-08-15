@@ -1,0 +1,48 @@
+body {
+    background-color: aqua;
+}
+
+#character1 {
+    float: left;
+    width: 33.3%;
+}
+
+#character2 {
+    float: right;
+    width: 33.3%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    width: 100%;
+    text-align: center;
+    padding: 30px, 30px, 30px, 30px;
+}
+
+#reset {
+    float: bottom;
+}
+#resetButton {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
