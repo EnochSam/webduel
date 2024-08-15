@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="game.css">
+        <script src="game.js">
+
+        </script>
+    </head>
+
+    <body>
+        <h1>Duel!!!</h1>
+        <div class="battle">
+            <div id="character1">
+                <h2>Character 1</h2>
+                <h3 id="health1">Health: 20</h3>
+                <img src="./character.jpg" id="img1">
+                <button type="button" onclick="attack(1)" id="button1">Attack</button>
+            </div>
+            
+            <div id="character2">
+                <h2>Character 2</h2>
+                <h3 id="health2">Health: 20</h3>
+                <img src="./character.jpg" id="img2">
+                <button type="button" onclick="attack(2)" id="button2">Attack</button>
+            </div>
+        </div>
+        <button type="button" onclick="location.reload()" id="resetButton">Restart Game</button>
+    </body>
+</html>
